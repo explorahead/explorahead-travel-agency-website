@@ -1,0 +1,24 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Compass needle icon for Apple touch icon -->
+  <rect width="180" height="180" fill="#1B3B5F"/>
+  <g transform="translate(90, 25) scale(1.4)">
+    <!-- Right half - solid gold fill -->
+    <path
+      d="M 0 0 L 28 78 L 0 65 Z"
+      fill="#D4A574"
+      stroke="#D4A574"
+      stroke-width="2"
+      stroke-linejoin="miter"
+      stroke-linecap="butt"
+    />
+    <!-- Left half - hollow/stroke only -->
+    <path
+      d="M 0 0 L -28 78 L 0 65 Z"
+      fill="none"
+      stroke="#D4A574"
+      stroke-width="4"
+      stroke-linejoin="miter"
+      stroke-linecap="butt"
+    />
+  </g>
+</svg>
