@@ -1,0 +1,244 @@
+THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
+
+This project incorporates components from the open source projects listed below.
+The original copyright notices and license terms for these components are
+provided below. ExplorAhead reserves all rights not expressly granted herein,
+whether by implication, estoppel, or otherwise.
+
+================================================================================
+PRODUCTION DEPENDENCIES
+================================================================================
+
+1. Next.js
+   Copyright (c) 2024 Vercel, Inc.
+   License: MIT
+   https://github.com/vercel/next.js
+
+2. React
+   Copyright (c) Meta Platforms, Inc. and affiliates.
+   License: MIT
+   https://github.com/facebook/react
+
+3. React DOM
+   Copyright (c) Meta Platforms, Inc. and affiliates.
+   License: MIT
+   https://github.com/facebook/react
+
+4. Sentry Next.js SDK (@sentry/nextjs)
+   Copyright (c) 2024 Sentry (https://sentry.io) and individual contributors.
+   License: MIT
+   https://github.com/getsentry/sentry-javascript
+
+5. Framer Motion
+   Copyright (c) 2018 Framer B.V.
+   License: MIT
+   https://github.com/framer/motion
+
+6. next-intl
+   Copyright (c) 2020 Jan Amann
+   License: MIT
+   https://github.com/amannn/next-intl
+
+7. Lucide React
+   Copyright (c) 2020 Lucide Contributors
+   License: ISC
+   https://github.com/lucide-icons/lucide
+
+8. react-hot-toast
+   Copyright (c) 2020 Timo Lins
+   License: MIT
+   https://github.com/timolins/react-hot-toast
+
+9. react-markdown
+   Copyright (c) 2015 Espen Hovlandsdal
+   License: MIT
+   https://github.com/remarkjs/react-markdown
+
+10. dotenv
+    Copyright (c) 2015, Scott Motte
+    License: BSD-2-Clause
+    https://github.com/motdotla/dotenv
+
+================================================================================
+DEVELOPMENT DEPENDENCIES
+================================================================================
+
+11. TypeScript
+    Copyright (c) Microsoft Corporation.
+    License: Apache-2.0
+    https://github.com/microsoft/TypeScript
+
+12. Tailwind CSS
+    Copyright (c) Tailwind Labs, Inc.
+    License: MIT
+    https://github.com/tailwindlabs/tailwindcss
+
+13. @tailwindcss/postcss
+    Copyright (c) Tailwind Labs, Inc.
+    License: MIT
+    https://github.com/tailwindlabs/tailwindcss
+
+14. ESLint
+    Copyright OpenJS Foundation and other contributors
+    License: MIT
+    https://github.com/eslint/eslint
+
+15. eslint-config-next
+    Copyright (c) 2024 Vercel, Inc.
+    License: MIT
+    https://github.com/vercel/next.js
+
+16. Prettier
+    Copyright (c) James Long and contributors
+    License: MIT
+    https://github.com/prettier/prettier
+
+17. prettier-plugin-tailwindcss
+    Copyright (c) Tailwind Labs, Inc.
+    License: MIT
+    https://github.com/tailwindlabs/prettier-plugin-tailwindcss
+
+18. Vitest
+    Copyright (c) 2021-PRESENT Anthony Fu <https://github.com/antfu>
+    Copyright (c) 2021-PRESENT Matias Capeletto <https://github.com/patak-dev>
+    License: MIT
+    https://github.com/vitest-dev/vitest
+
+19. Playwright
+    Copyright (c) Microsoft Corporation.
+    License: Apache-2.0
+    https://github.com/microsoft/playwright
+
+20. @testing-library/react
+    Copyright (c) 2017 Kent C. Dodds
+    License: MIT
+    https://github.com/testing-library/react-testing-library
+
+21. @testing-library/jest-dom
+    Copyright (c) 2017 Kent C. Dodds
+    License: MIT
+    https://github.com/testing-library/jest-dom
+
+22. @vitejs/plugin-react
+    Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors
+    License: MIT
+    https://github.com/vitejs/vite-plugin-react
+
+23. jsdom
+    Copyright (c) 2010 Elijah Insua
+    License: MIT
+    https://github.com/jsdom/jsdom
+
+24. Husky
+    Copyright (c) 2021 typicode
+    License: MIT
+    https://github.com/typicode/husky
+
+25. lint-staged
+    Copyright (c) 2016 Andrey Okonetchnikov
+    License: MIT
+    https://github.com/okonet/lint-staged
+
+26. @types/node
+    Copyright (c) Microsoft Corporation.
+    License: MIT
+    https://github.com/DefinitelyTyped/DefinitelyTyped
+
+27. @types/react
+    Copyright (c) Microsoft Corporation.
+    License: MIT
+    https://github.com/DefinitelyTyped/DefinitelyTyped
+
+28. @types/react-dom
+    Copyright (c) Microsoft Corporation.
+    License: MIT
+    https://github.com/DefinitelyTyped/DefinitelyTyped
+
+================================================================================
+LICENSE TEXTS
+================================================================================
+
+MIT License
+-----------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+ISC License
+-----------
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+BSD-2-Clause License
+--------------------
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+
+Apache License 2.0
+------------------
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+================================================================================
+
+This NOTICE file is provided for informational purposes only and does not
+modify the license terms for ExplorAhead's proprietary code. The third-party
+components listed above remain subject to their original license terms.
+
+Last updated: February 2026

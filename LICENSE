@@ -1,0 +1,59 @@
+PROPRIETARY SOFTWARE LICENSE
+
+Copyright (c) 2025-2026 ExplorAhead. All rights reserved.
+
+NOTICE: This is proprietary and confidential software owned by ExplorAhead.
+
+1. GRANT OF LICENSE
+   This software and associated documentation files (the "Software") are the
+   exclusive property of ExplorAhead. No license, express or implied, is granted
+   to any party to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software.
+
+2. RESTRICTIONS
+   You may NOT:
+   - Copy, reproduce, or duplicate any part of the Software
+   - Modify, adapt, or create derivative works based on the Software
+   - Distribute, transfer, sublicense, lease, lend, or rent the Software
+   - Reverse engineer, disassemble, or decompile the Software
+   - Use the Software for any commercial purpose without written authorization
+   - Remove or alter any proprietary notices, labels, or marks on the Software
+
+3. VIEWING AND FORKING ON GITHUB
+   This Software is hosted in a public repository on GitHub for portfolio and
+   demonstration purposes only. In accordance with GitHub's Terms of Service,
+   you may view and fork this repository. However, forking does NOT grant you
+   any rights to use, modify, distribute, or create derivative works from this
+   Software beyond what is strictly permitted by GitHub's Terms of Service.
+
+4. THIRD-PARTY COMPONENTS
+   This Software incorporates open source components, which are subject to their
+   respective licenses as described in the NOTICE file. Your use of these
+   third-party components is governed by their respective license terms, not
+   this proprietary license.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL EXPLORAHEAD OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. TERMINATION
+   Any unauthorized use of this Software automatically terminates any implicit
+   permission granted and may result in legal action.
+
+8. CONTACT
+   For licensing inquiries, please contact:
+   ExplorAhead
+   Website: https://explorahead.com
+   Email: explorahead@gmail.com
+
+---
+
+For the list of third-party open source components and their licenses,
+please refer to the NOTICE file in this repository.
