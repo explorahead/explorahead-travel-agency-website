@@ -1,0 +1,775 @@
+{
+  "metadata": {
+    "title": {
+      "default": "ExplorAhead | Twoja Podróż Zaczyna Się Tutaj",
+      "template": "%s | ExplorAhead"
+    },
+    "description": "Doświadcz spersonalizowanego planowania luksusowych podróży z naszym specjalistą podróży opartym na sztucznej inteligencji. Odkryj wyselekcjonowane destynacje, indywidualne trasy i niezapomniane przygody szyte na miarę dla Ciebie."
+  },
+  "common": {
+    "appName": "ExplorAhead",
+    "loading": "Ładowanie...",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "previous": "Poprzedni",
+    "submit": "Wyślij",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "yes": "Tak",
+    "no": "Nie",
+    "error": "Błąd",
+    "success": "Sukces",
+    "bookNow": "Zarezerwuj Teraz",
+    "days": "dni"
+  },
+  "navigation": {
+    "home": "Strona Główna",
+    "destinations": "Destynacje",
+    "services": "Usługi",
+    "about": "O mnie",
+    "pricing": "Cennik",
+    "contact": "Kontakt",
+    "chat": "Czat Podróżny",
+    "settings": "Ustawienia",
+    "logout": "Wyloguj",
+    "toggleMenu": "Przełącz menu"
+  },
+  "whatsapp": {
+    "defaultMessage": "Cześć, jestem zainteresowany zaplanowaniem mojej podróży marzeń. Czy możesz mi w tym pomóc?",
+    "ariaLabel": "Porozmawiaj z nami na WhatsApp"
+  },
+  "hero": {
+    "badge": "Twoja Podróż Zaczyna Się Tutaj",
+    "title": "Odkryj Świat,",
+    "titleHighlight": "Na Swój Sposób",
+    "ctaSecondary": "Odkryj Destynacje",
+    "stats": {
+      "destinations": "Destynacje",
+      "experience": "Lat Doświadczenia",
+      "support": "Wsparcie"
+    },
+    "slides": {
+      "madagascar": {
+        "destination": "Madagaskar",
+        "message": "Odkrywaj miejsca, w których natura wciąż tworzy cuda.",
+        "tagline": "Dzika Natura",
+        "whatsappMessage": "Marzę o zobaczeniu baobabów na Madagaskarze — pomożesz mi zaplanować wyjazd?"
+      },
+      "philippines": {
+        "destination": "Palawan, Filipiny",
+        "message": "Doświadczaj chwil, w których raj staje się rzeczywistością.",
+        "tagline": "Czysty Raj",
+        "whatsappMessage": "Palawan wygląda niesamowicie - pomożesz mi zaplanować taki wyjazd?"
+      },
+      "utah": {
+        "destination": "Utah, USA",
+        "message": "Twoja przygoda czeka.",
+        "tagline": "Bez Granic",
+        "whatsappMessage": "Chcę zobaczyć kaniony Utah - pomożesz mi zaplanować podróż?"
+      },
+      "colombia": {
+        "destination": "Guatapé, Kolumbia",
+        "message": "Zanurz się w świecie pełnym kolorów.",
+        "tagline": "Świat Kolorów",
+        "whatsappMessage": "Marzy mi się Guatapé i jego kolory - pomożesz mi zaplanować wyjazd?"
+      },
+      "cuba": {
+        "destination": "Hawana, Kuba",
+        "message": "Poczuj rytm miejsc, które żyją własnym tempem.",
+        "tagline": "Poczuj Rytm",
+        "whatsappMessage": "Marzą mi się uliczki Hawany - pomożesz mi zaplanować podróż?"
+      },
+      "israel": {
+        "destination": "Hajfa, Izrael",
+        "message": "Odnajdź spokój w podróżach, które naprawdę poruszają.",
+        "tagline": "Chwila Spokoju",
+        "whatsappMessage": "Chciałbym odwiedzić Ogrody Bahaitów - pomożesz mi zaplanować wyjazd?"
+      }
+    },
+    "journeyComplete": "Odkryłem wszystkie Wasze destynacje — jestem gotowy zaplanować podróż marzeń!"
+  },
+  "auth": {
+    "login": {
+      "title": "Logowanie",
+      "subtitle": "Zaloguj się do swojego konta",
+      "email": "E-mail",
+      "emailPlaceholder": "ty@twojaagencja.pl",
+      "password": "Hasło",
+      "passwordPlaceholder": "••••••••",
+      "rememberMe": "Zapamiętaj mnie",
+      "forgotPassword": "Zapomniałeś hasła?",
+      "signIn": "Zaloguj się",
+      "signUp": "Zarejestruj się",
+      "noAccount": "Nie masz konta?",
+      "needAccess": "Potrzebujesz dostępu?",
+      "contactUs": "Skontaktuj się z nami",
+      "contactMessage": "aby poprosić o konto agencji.",
+      "errors": {
+        "credentialsSignin": "Nieprawidłowy e-mail lub hasło",
+        "oauthSignin": "Błąd logowania przez dostawcę",
+        "oauthCallback": "Błąd podczas uwierzytelniania",
+        "emailSignin": "Błąd wysyłania magicznego linku",
+        "default": "Wystąpił błąd podczas logowania"
+      }
+    },
+    "invite": {
+      "title": "Zaproszenie!",
+      "subtitle": "Dołącz do {agencyName} w ExplorAhead",
+      "accept": "Przyjmij Zaproszenie",
+      "decline": "Odrzuć",
+      "expired": "To zaproszenie wygasło",
+      "invalid": "To zaproszenie jest nieprawidłowe",
+      "alreadyAccepted": "To zaproszenie zostało już przyjęte"
+    }
+  },
+  "chat": {
+    "title": "Specjalista AI ds. Podróży",
+    "newConversation": "Nowa Rozmowa",
+    "deleteConversation": "Usuń Rozmowę",
+    "conversationHistory": "Historia Rozmów",
+    "messagePlaceholder": "Zapytaj o swoją wymarzoną destynację...",
+    "send": "Wyślij",
+    "typing": "Pisze...",
+    "error": "Nie udało się wysłać wiadomości",
+    "welcome": "Witaj! Jak mogę pomóc zaplanować Twoją idealną podróż?",
+    "suggestedPrompts": {
+      "title": "Sugerowane Pytania",
+      "prompts": [
+        "Zaplanuj 10-dniowy miesiąc miodowy na Bali",
+        "Jakie są najlepsze plaże w Tajlandii?",
+        "Utwórz trasę luksusowej wycieczki po Europie",
+        "Atrakcje przyjazne rodzinom w Japonii"
+      ]
+    }
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "profile": {
+      "title": "Profil",
+      "name": "Imię",
+      "email": "E-mail",
+      "role": "Rola",
+      "agency": "Agencja",
+      "language": "Preferowany Język",
+      "languageDescription": "Wybierz preferowany język interfejsu"
+    },
+    "account": {
+      "title": "Konto",
+      "changePassword": "Zmień Hasło",
+      "deleteAccount": "Usuń Konto",
+      "deleteAccountWarning": "Ta operacja jest nieodwracalna"
+    },
+    "preferences": {
+      "title": "Preferencje",
+      "notifications": "Powiadomienia E-mail",
+      "newsletter": "Newsletter",
+      "marketing": "E-maile Marketingowe"
+    },
+    "success": "Ustawienia zapisane pomyślnie",
+    "error": "Nie udało się zapisać ustawień"
+  },
+  "footer": {
+    "tagline": "Tworzymy niezapomniane podróże dostosowane do Twoich marzeń. Pozwól nam poprowadzić Cię do najbardziej niezwykłych miejsc na świecie.",
+    "explore": "Odkryj",
+    "services": "Usługi",
+    "contactUs": "Kontakt",
+    "rights": "Wszelkie prawa zastrzeżone",
+    "developedBy": "Stworzone przez",
+    "social": {
+      "title": "Śledź Naszą Podróż",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    },
+    "links": {
+      "aboutUs": "O mnie",
+      "luxury": "Podróże Luksusowe",
+      "adventure": "Wycieczki Przygodowe",
+      "honeymoon": "Miesiące Miodowe",
+      "group": "Podróże Grupowe",
+      "privacy": "Polityka Prywatności",
+      "terms": "Warunki Usługi",
+      "cookies": "Polityka Cookies"
+    },
+    "contact": {
+      "email": "explorahead@gmail.com",
+      "phone": "+48 690 946 046",
+      "address": "Wroclaw, Poland"
+    }
+  },
+  "cookies": {
+    "consent": {
+      "title": "Szanujemy Twoją prywatność",
+      "description": "Używamy plików cookie, aby poprawić Twoje wrażenia z przeglądania, dostarczać spersonalizowane treści i analizować nasz ruch. Klikając \"Zaakceptuj wszystkie\", wyrażasz zgodę na używanie przez nas plików cookie.",
+      "acceptAll": "Zaakceptuj wszystkie",
+      "declineAll": "Odrzuć wszystkie",
+      "customize": "Dostosuj",
+      "savePreferences": "Zapisz preferencje",
+      "close": "Zamknij",
+      "back": "Wstecz",
+      "preferences": {
+        "title": "Preferencje plików cookie",
+        "necessary": {
+          "title": "Niezbędne pliki cookie",
+          "description": "Te pliki cookie są niezbędne do prawidłowego działania strony. Nie można ich wyłączyć."
+        },
+        "analytics": {
+          "title": "Analityczne pliki cookie",
+          "description": "Te pliki cookie pomagają nam zrozumieć, jak odwiedzający korzystają z naszej strony, zbierając anonimowe informacje."
+        },
+        "marketing": {
+          "title": "Marketingowe pliki cookie",
+          "description": "Te pliki cookie są używane do śledzenia odwiedzających na różnych stronach w celu wyświetlania odpowiednich reklam."
+        }
+      }
+    }
+  },
+  "marketing": {
+    "services": {
+      "title": "Dostosowane Usługi Podróżne",
+      "subtitle": "Od luksusowych wypadów po wycieczki przygodowe, tworzymy doświadczenia dopasowane do Twojego unikalnego stylu",
+      "luxury": {
+        "title": "Podróże Luksusowe",
+        "description": "Doświadcz świata w stylu z naszymi pakietami premium"
+      },
+      "adventure": {
+        "title": "Wycieczki Przygodowe",
+        "description": "Ekscytujące doświadczenia dla poszukiwaczy przygód"
+      },
+      "honeymoon": {
+        "title": "Miesiące Miodowe",
+        "description": "Romantyczne wypady, aby uczcić Waszą historię miłosną"
+      },
+      "group": {
+        "title": "Podróże Grupowe",
+        "description": "Perfekcyjnie skoordynowane podróże dla rodzin i grup"
+      }
+    },
+    "servicesPreview": {
+      "badge": "Co Oferujemy",
+      "title": "Jak Dokładnie Możemy Ci Pomóc?",
+      "subtitle": "Zajmujemy się każdym szczegółem Twojej podróży - od lotów po zakwaterowanie, plany dnia po wsparcie - abyś mógł skupić się na tworzeniu niezapomnianych wspomnień.",
+      "exploreAll": "Odkryj Wszystkie Usługi",
+      "items": {
+        "transport": {
+          "title": "Transport",
+          "description": "Badam i rekomenduję najlepsze opcje transportu - z linkami do bezpośredniej rezerwacji."
+        },
+        "accommodation": {
+          "title": "Zakwaterowanie",
+          "description": "Hotel, apartament, pensjonat z charakterem - dopasowane do Twojego stylu życia."
+        },
+        "dailyPlanning": {
+          "title": "Plan Dzienny",
+          "description": "Elastyczny, z czasem na relaks, kulturę, jedzenie... albo po prostu na siebie."
+        },
+        "experiences": {
+          "title": "Atrakcje i Doświadczenia",
+          "description": "Od ukrytych kawiarni po prywatne przewodnictwo - bez pułapek turystycznych, tylko autentyczne chwile."
+        },
+        "emailSupport": {
+          "title": "Wsparcie E-mail",
+          "description": "Pytania przed lub podczas podróży? Jesteśmy tu, aby pomóc mailem w godzinach 9:00 - 18:00."
+        },
+        "whatsappSupport": {
+          "title": "WhatsApp Wsparcie",
+          "description": "Potrzebujesz pomocy po godzinach? Dodaj Wsparcie w Podróży dla dostępu przez WhatsApp w każdej chwili.",
+          "descriptionLine3": "Odpowiadam najszybciej jak tylko mogę, nawet po 18:00."
+        }
+      }
+    },
+    "whyChooseUs": {
+      "title": "Dlaczego warto zaplanować podróż ze mną?",
+      "items": {
+        "zeroStress": {
+          "title": "Zero Stresu",
+          "description": "Przygotowuję kompleksowy plan: rekomenduję loty, zakwaterowanie i atrakcje - Ty rezerwujesz bezpośrednio u dostawcy, zachowując pełną kontrolę i przejrzystość cen."
+        },
+        "authenticity": {
+          "title": "Świadome Podróżowanie",
+          "description": "Pomagam odkrywać miejsca w sposób dopasowany do Ciebie - bez zbędnych rozczarowań i nierealnych oczekiwań."
+        },
+        "supportReturn": {
+          "title": "Wsparcie Po Powrocie",
+          "description": "Jestem z Tobą od momentu planowania aż do zakończenia podróży - tak, abyś czuł się pewnie i spokojnie."
+        },
+        "personalized": {
+          "title": "Spersonalizowana Obsługa 1:1",
+          "description": "Każdy plan tworzę indywidualnie - dla Ciebie, pary lub grupy - z uwzględnieniem wspólnych potrzeb i oczekiwań."
+        }
+      }
+    },
+    "howItWorks": {
+      "badge": "Jak To Działa",
+      "title": "Rozpocznij Swoją Podróż w 3 Prostych Krokach",
+      "subtitle": "Bez formularzy. Bez czekania. Bez zobowiązań. Po prostu rozmowa o Twojej wymarzonej podróży.",
+      "trust": {
+        "noObligation": "Bez zobowiązań",
+        "instantResponse": "Natychmiastowa odpowiedź"
+      },
+      "steps": {
+        "connect": {
+          "title": "Napisz do Mnie",
+          "description": "Skontaktuj się ze mną przez WhatsApp lub mailowo. Powiedz, dokąd chcesz się wybrać - pomogę zaplanować resztę.",
+          "detail": "Szybka odpowiedź",
+          "detail2": "Wybierz dogodny kanał kontaktu"
+        },
+        "plan": {
+          "title": "Tworzymy Twój Plan",
+          "description": "W ciągu 3-7 dni otrzymasz kompletną, spersonalizowaną trasę dopasowaną do Twoich potrzeb.",
+          "detail": "Loty • Hotele • Atrakcje",
+          "detail2": "Sekretne perełki podróży"
+        },
+        "travel": {
+          "title": "Podróżuj z Pewnością",
+          "description": "Wszystko jest zorganizowane. Ty pakujesz walizkę i ruszasz w drogę.",
+          "detail": "Wsparcie • Bez stresu",
+          "detail2": "Prawdziwa przygoda"
+        }
+      },
+      "cta": {
+        "title": "Gotowy Rozpocząć Planowanie Podróży?",
+        "subtitle": "Wybierz wygodny sposób kontaktu - bez formularzy, bez komplikacji.",
+        "chatNow": "Napisz na WhatsApp",
+        "contactUs": "Napisz do mnie e-mail",
+        "socialProof": "Dołącz do 100+ podróżników, którzy powierzyli nam planowanie swoich wymarzonych podróży"
+      }
+    },
+    "servicesPage": {
+      "badge": "Nasze Usługi",
+      "title": "Tworzymy Twoją Idealną Podróż",
+      "subtitle": "Od marzeń do destynacji, zapewniamy kompleksowe usługi podróżne zaprojektowane, aby przekraczać Twoje oczekiwania na każdym kroku.",
+      "getStarted": "Zacznij",
+      "learnMore": "Dowiedz Się Więcej",
+      "process": {
+        "badge": "Jak To Działa",
+        "title": "Twoja Podróż Z Nami",
+        "subtitle": "Bezproblemowy proces zaprojektowany, aby zamienić Twoje marzenia podróżnicze w rzeczywistość, ze spersonalizowaną uwagą na każdym kroku.",
+        "steps": {
+          "discovery": {
+            "title": "Odkrywanie",
+            "description": "Podziel się swoimi marzeniami podróżniczymi, preferencjami i niezbędnymi doświadczeniami."
+          },
+          "design": {
+            "title": "Projektowanie",
+            "description": "Tworzymy spersonalizowaną trasę dostosowaną do Twojej wizji."
+          },
+          "refine": {
+            "title": "Dopracowanie",
+            "description": "Przeglądaj, dostosowuj i dopracowuj każdy szczegół razem."
+          },
+          "experience": {
+            "title": "Doświadczenie",
+            "description": "Wyrusz w swoją podróż ze wsparciem 24/7 na całej drodze."
+          }
+        }
+      },
+      "cta": {
+        "title": "Gotowy Do Startu?",
+        "subtitle": "Niezależnie od tego, czy masz na myśli destynację, czy potrzebujesz inspiracji, jesteśmy tutaj, aby pomóc stworzyć Twoją idealną podróż.",
+        "chatWithAI": "Czat z AI",
+        "talkToExpert": "Porozmawiaj z Ekspertem"
+      },
+      "items": {
+        "tripPlanning": {
+          "title": "Spersonalizowane Planowanie Podróży",
+          "description": "Każda podróż zaczyna się od zrozumienia Twoich marzeń. Tworzymy indywidualne trasy, które odzwierciedlają Twój unikalny styl podróżowania, preferencje i destynacje z listy marzeń.",
+          "features": {
+            "consultation": "Szczegółowa konsultacja, aby zrozumieć Twoją wizję podróży",
+            "itinerary": "Dostosowane trasy z planowaniem dzień po dniu",
+            "recommendations": "Rekomendacje restauracji i atrakcji",
+            "insiderTips": "Lokalne wskazówki insiderów i ukryte perełki",
+            "flexibleBooking": "Elastyczna rezerwacja ze wsparciem modyfikacji"
+          }
+        },
+        "luxury": {
+          "title": "Luksusowy Concierge",
+          "description": "Doświadcz podróżowania w najlepszym wydaniu z obsługą VIP, ekskluzywnym dostępem i zakwaterowaniem światowej klasy, które przekształcają zwykłe podróże w niezwykłe doświadczenia.",
+          "features": {
+            "exclusiveHotels": "Dostęp do ekskluzywnych hoteli i prywatnych willi",
+            "vipServices": "Usługi VIP na lotniskach i prywatne transfery",
+            "restaurants": "Priorytetowe rezerwacje w restauracjach z gwiazdką Michelin",
+            "privateTours": "Prywatne wycieczki z ekspertami",
+            "concierge": "Dedykowane wsparcie concierge 24/7"
+          }
+        },
+        "group": {
+          "title": "Podróże Grupowe",
+          "description": "Od wyjazdów firmowych po zjazdy rodzinne, specjalizujemy się w koordynowaniu bezproblemowych doświadczeń grupowych, które łączą ludzi w niezwykłych destynacjach.",
+          "features": {
+            "coordination": "Koordynacja grupy i zarządzanie logistyką",
+            "groupRates": "Negocjowane stawki grupowe i ekskluzywne oferty",
+            "teamBuilding": "Działania i doświadczenia integracyjne",
+            "customItineraries": "Dostosowane trasy grupowe",
+            "onsiteSupport": "Wsparcie i koordynacja na miejscu"
+          }
+        },
+        "honeymoon": {
+          "title": "Pakiety Miesiąca Miodowego",
+          "description": "Rozpocznij swoje wspólne życie romantyczną ucieczką zaprojektowaną, aby uczcić Waszą miłość. Od bungalowów nad wodą po kolacje przy świecach, tworzymy magiczne chwile.",
+          "features": {
+            "expertise": "Ekspertyza w romantycznych destynacjach",
+            "amenities": "Specjalne udogodnienia i ulepszenia na miesiąc miodowy",
+            "privateExperiences": "Prywatne doświadczenia i aktywności dla par",
+            "surprises": "Niespodzianki i uroczystości",
+            "registry": "Opcje rejestrów i prezentów"
+          }
+        },
+        "adventure": {
+          "title": "Wycieczki Przygodowe",
+          "description": "Dla odważnych i ciekawskich, organizujemy przygody przyspieszające bicie serca, które przekraczają granice, zapewniając jednocześnie bezpieczeństwo i tworząc wspomnienia na całe życie.",
+          "features": {
+            "expertGuides": "Eksperci przewodnicy przygodowi i protokoły bezpieczeństwa",
+            "uniqueExperiences": "Unikalne doświadczenia z dala od utartych szlaków",
+            "equipment": "Koordynacja sprzętu i wyposażenia",
+            "preparation": "Wskazówki dotyczące przygotowania fizycznego",
+            "insurance": "Pomoc w ubezpieczeniu podróży przygodowych"
+          }
+        },
+        "aiAssistant": {
+          "title": "Asystent Podróży AI",
+          "description": "Doświadcz przyszłości planowania podróży z naszym specjalistą napędzanym AI, który zapewnia natychmiastowe rekomendacje, pomoc w czasie rzeczywistym i spersonalizowane sugestie 24/7.",
+          "features": {
+            "recommendations": "Natychmiastowe rekomendacje destynacji",
+            "itineraryGeneration": "Generowanie tras w czasie rzeczywistym",
+            "budgetOptimization": "Inteligentna optymalizacja budżetu",
+            "naturalLanguage": "Planowanie podróży w języku naturalnym",
+            "continuousLearning": "Ciągłe uczenie się z Twoich preferencji"
+          }
+        }
+      }
+    },
+    "cta": {
+      "badge": "Planowanie Oparte Na AI",
+      "title": "Gotowy Odkryć",
+      "titleHighlight": "Swoją Wymarzoną Destynację?",
+      "subtitle": "Doświadcz spersonalizowanego planowania podróży z naszymi narzędziami opartymi na AI. Otrzymuj natychmiastowe rekomendacje, indywidualne trasy i porady ekspertów—wszystko dostosowane do Twojego stylu.",
+      "requestAccess": "Zacznij Teraz",
+      "talkToExpert": "Porozmawiaj z Ekspertem",
+      "trustIndicator": "Zaufane przez tysiące podróżników na całym świecie"
+    },
+    "destinations": {
+      "title": "Wyróżnione Destynacje",
+      "subtitle": "Odkryj naszą wyselekcjonowaną kolekcję zapierających dech w piersiach lokacji",
+      "viewAll": "Zobacz Wszystkie Destynacje"
+    },
+    "testimonials": {
+      "title": "Co Mówią Nasi Podróżnicy",
+      "subtitle": "Prawdziwe historie z prawdziwych przygód"
+    }
+  },
+  "errors": {
+    "generic": "Coś poszło nie tak",
+    "unauthorized": "Musisz być zalogowany",
+    "forbidden": "Nie masz uprawnień do tego zasobu",
+    "notFound": "Strona nie znaleziona",
+    "serverError": "Błąd serwera. Spróbuj ponownie później",
+    "networkError": "Błąd sieci. Sprawdź swoje połączenie",
+    "validation": "Sprawdź wprowadzone dane",
+    "tryAgain": "Spróbuj Ponownie",
+    "goHome": "Strona Główna"
+  },
+  "agency": {
+    "status": {
+      "trial": "Okres Próbny",
+      "active": "Aktywny",
+      "suspended": "Zawieszony",
+      "cancelled": "Anulowany"
+    },
+    "roles": {
+      "owner": "Właściciel",
+      "admin": "Administrator",
+      "agent": "Agent",
+      "viewer": "Obserwator"
+    },
+    "subscription": {
+      "title": "Subskrypcja",
+      "plan": "Plan",
+      "status": "Status",
+      "trialEnds": "Koniec okresu próbnego",
+      "subscriptionEnds": "Koniec subskrypcji",
+      "upgrade": "Uaktualnij",
+      "manage": "Zarządzaj Subskrypcją"
+    },
+    "invitations": {
+      "title": "Zaproszenia Zespołu",
+      "invite": "Zaproś Członka Zespołu",
+      "email": "Adres E-mail",
+      "role": "Rola",
+      "send": "Wyślij Zaproszenie",
+      "pending": "Oczekujące",
+      "accepted": "Zaakceptowane",
+      "expired": "Wygasłe",
+      "revoke": "Odwołaj"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "pl": "Polski"
+  },
+  "about": {
+    "hero": {
+      "badge": "Nasza Historia",
+      "title": "O ExplorAhead",
+      "subtitle": "Wierzymy, że każda podróż powinna być tak unikalna jak podróżnik, który ją podejmuje. Od ponad 5 lat tworzymy niezapomniane doświadczenia."
+    },
+    "story": {
+      "badge": "Nasze Początki",
+      "titleLine1": "Od Chaosu do Radości:",
+      "titleLine2": "Dlaczego Stworzyłam ExplorAhead",
+      "paragraph1": "Moja droga do stworzenia ExplorAhead prowadziła przez studia magisterskie na Uniwersytecie Wrocławskim oraz lata pracy w branży turystycznej. To właśnie tam zdobyłam praktyczną wiedzę o systemach rezerwacyjnych, logistyce wyjazdów i drobnych szczegółach, które zmieniają zwykłą podróż w niezapomniane doświadczenie.",
+      "paragraph2": "Obserwując podróżnych zmagających się z porównywaniem lotów, wyszukiwaniem hoteli i planowaniem tras, wiedziałam, że musi istnieć prostszy i przyjemniejszy sposób przygotowania wyjazdów. Postanowiłam stworzyć przestrzeń, w której planowanie podróży staje się radością, a nie stresem.",
+      "paragraph3": "Dziś tworzę spersonalizowane plany podróży, w których uwzględniam rekomendacje lotów, hoteli i atrakcji - tak, aby każdy wyjazd był maksymalnie dopasowany do Twoich potrzeb i marzeń. Ty wybierasz kierunek, ja przygotowuję cały plan - gotowy do realizacji."
+    },
+    "stats": {
+      "happyTravelers": "Szczęśliwi Podróżnicy",
+      "satisfactionRate": "Wskaźnik Zadowolenia",
+      "yearsOfExperience": "Lat Doświadczenia",
+      "destinations": "Destynacje"
+    },
+    "values": {
+      "badge": "To, co jest dla nas ważne",
+      "title": "Nasze Wartości",
+      "subtitle": "Te zasady kierują wszystkim, co robimy, od destynacji, które polecamy, po doświadczenia, które tworzymy.",
+      "items": {
+        "passion": {
+          "title": "Pasja do Podróży",
+          "description": "Każda podróż opowiada inną historię. Dzięki własnym doświadczeniom i latom pracy w branży tworzymy wyjazdy, które zostają w pamięci na długo - nie tylko na zdjęciach."
+        },
+        "personal": {
+          "title": "Osobiste Podejście",
+          "description": "Nie wierzymy w gotowe schematy. Każdy plan powstaje w oparciu o Twój styl podróżowania, potrzeby i budżet - tak, aby wyjazd naprawdę był „Twój”."
+        },
+        "flexibility": {
+          "title": "Elastyczne Planowanie",
+          "description": "Plany czasem się zmieniają - i to jest w porządku. Reagujemy, dopasowujemy i pomagamy znaleźć najlepsze rozwiązania, nawet gdy pojawi się potrzeba zmian."
+        }
+      }
+    },
+    "team": {
+      "badge": "Poznaj Ekspertów",
+      "title": "Nasz Zespół",
+      "subtitle": "Pasjonaci podróży i eksperci branżowi, którzy poświęcają się sprawieniu, by Twoja podróż była niezwykła.",
+      "members": {
+        "alexandra": {
+          "name": "Alexandra Chen",
+          "role": "Założycielka i Dyrektor Generalna",
+          "bio": "Była dyplomata przekształcona w przedsiębiorcę turystycznego z pasją do łączenia kultur."
+        },
+        "marcus": {
+          "name": "Marcus Williams",
+          "role": "Szef Działu Luksusowych Podróży",
+          "bio": "15 lat w luksusowej hotelarstwie, specjalizacja w ultra-ekskluzywnych doświadczeniach."
+        },
+        "sofia": {
+          "name": "Sofia Rodriguez",
+          "role": "Specjalista ds. Przygód",
+          "bio": "Profesjonalna alpinistka i liderka ekspedycji z miłością do niezwykłości."
+        },
+        "james": {
+          "name": "James Nakamura",
+          "role": "Dyrektor Technologii",
+          "bio": "Ekspert AI i technologii podróżniczych, pionier przyszłości spersonalizowanych podróży."
+        }
+      }
+    },
+    "partners": {
+      "text": "Zaufane przez liderów branży i akredytowane przez"
+    },
+    "cta": {
+      "title": "Stwórzmy Coś Niesamowitego!",
+      "subtitle": "Gotowy doświadczyć różnicy ExplorAhead?",
+      "subtitleLine2": "Zacznij planować swoją następną przygodę już dziś.",
+      "startPlanning": "Zacznij Planować",
+      "contactUs": "Skontaktuj Się Z Nami"
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Skontaktuj Się",
+      "title": "Skontaktuj Się Z Nami",
+      "subtitle": "Masz pytania lub jesteś gotowy rozpocząć planowanie? Chcielibyśmy od Ciebie usłyszeć. Skontaktuj się z nami i stwórzmy razem Twoją idealną podróż."
+    },
+    "form": {
+      "title": "Wyślij Nam Wiadomość",
+      "subtitle": "Wypełnij poniższy formularz, a odpowiemy w ciągu kilku godzin—nie dni!",
+      "successTitle": "Wiadomość Wysłana!",
+      "successMessage": "Dziękujemy za kontakt. Przejrzymy Twoje zapytanie i wkrótce się z Tobą skontaktujemy.",
+      "typeOfRequest": "Typ Zapytania",
+      "companyName": "Nazwa Firmy (opcjonalnie)",
+      "companyPlaceholder": "Twoja Firma",
+      "firstName": "Imię",
+      "firstNamePlaceholder": "Jan",
+      "lastName": "Nazwisko",
+      "lastNamePlaceholder": "Kowalski",
+      "email": "E-mail",
+      "emailPlaceholder": "jan@przyklad.pl",
+      "phone": "Telefon (Opcjonalnie)",
+      "phonePlaceholder": "+48 123 456 789",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Opowiedz nam o swoich potrzebach...",
+      "sendButton": "Wyślij Wiadomość",
+      "requestTypes": {
+        "select": "Wybierz powód...",
+        "general": "Ogólne Zapytanie",
+        "support": "Wsparcie"
+      }
+    },
+    "info": {
+      "title": "Informacje Kontaktowe",
+      "subtitle": "Wolisz skontaktować się bezpośrednio? Oto jak możesz się z nami skontaktować.",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "address": "Adres",
+      "hours": "Godziny",
+      "hoursValue": "Pn-Pt: 9:00-18:00 | Sob: 10:00-16:00",
+      "followUs": "Śledź Nas",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "twitter": "Twitter"
+      }
+    },
+    "map": {
+      "placeholder": "Tutaj zostanie wyświetlona interaktywna mapa"
+    },
+    "faq": {
+      "title": "Najczęściej Zadawane Pytania",
+      "subtitle": "Znajdź odpowiedzi na najczęstsze pytania dotyczące naszych usług, procesu rezerwacji i planowania podróży.",
+      "button": "Zobacz FAQ"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "badge": "Przejrzyste Ceny",
+      "title": "Prosty i Uczciwy Cennik",
+      "subtitle": "Profesjonalne planowanie podróży dostosowane do Twoich potrzeb.\nBez ukrytych opłat, tylko uczciwa usługa.",
+      "icons": {
+        "flights": "Loty",
+        "hotels": "Hotele",
+        "attractions": "Atrakcje"
+      }
+    },
+    "valueProposition": {
+      "title": "Za Co Płacisz",
+      "description": "Cena usługi nie obejmuje kosztów lotów, noclegów ani atrakcji. Płacisz za moją wiedzę, doświadczenie oraz profesjonalne planowanie i logistykę Twojego czasu - tak, aby powstał idealny plan podróży, a Ty mógł skupić się wyłącznie na czerpaniu radości z wyjazdu."
+    },
+    "dreamFinder": {
+      "title": "Poszukiwacz Marzeń",
+      "subtitle": "Dla osób, które nie wiedzą jeszcze, dokąd pojechać",
+      "tagline": "Odkryjmy razem Twoje idealne miejsce!",
+      "question": "\"Chcę gdzieś pojechać, ale nie wiem gdzie...\"",
+      "answer": "To idealna usługa dla Ciebie! Podczas 45-minutowej rozmowy pomożemy Ci znaleźć wymarzoną destynację.",
+      "whatYouGet": "CO OTRZYMUJESZ:",
+      "features": {
+        "consultation": "45-minutowa konsultacja online",
+        "conversation": "Rozmowa o preferencjach, budżecie i oczekiwaniach",
+        "recommendations": "Do 5 dopasowanych rekomendacji z konkretnymi wskazówkami (mailem w ciągu 24h/48h po rozmowie)"
+      },
+      "topicsTitle": "Co omówimy:",
+      "topics": {
+        "vacation": "Jaki rodzaj wakacji preferujesz?",
+        "type": "Plaża, góry, czy miejskie zwiedzanie?",
+        "budget": "Jaki jest Twój budżet?",
+        "duration": "Ile czasu masz na wyjazd?",
+        "companions": "Z kim jedziesz? (solo, para, rodzina)",
+        "cultures": "Jakie klimaty i kultury Cię fascynują?",
+        "priorities": "Co jest dla Ciebie najważniejsze w podróży?"
+      },
+      "priceLabel": "Cena konsultacji:",
+      "bonusLabel": "BONUS:",
+      "bonusText": "Jeśli zamówisz Dream Plan po konsultacji - 149 PLN zostanie odliczone od ceny!",
+      "freeNote": "To znaczy, że konsultacja jest DARMOWA przy zamówieniu planu!"
+    },
+    "packages": {
+      "badge": "Wybierz Swój Plan",
+      "title": "Nasze Pakiety Usług",
+      "swipeHint": "Przesuń, aby zobaczyć więcej"
+    },
+    "common": {
+      "days": "dni"
+    },
+    "dreamPlan": {
+      "title": "Plan Marzeń",
+      "subtitle": "Dla osób, które chcą gotowy plan bez stresu",
+      "priceLabel": "Cena za plan (do 4 osób):",
+      "whatYouGet": "Co Otrzymujesz",
+      "features": {
+        "itinerary": "Szczegółowy plan dzień po dniu",
+        "flights": "2-3 rekomendacje lotów",
+        "hotels": "2-3 rekomendacje hoteli",
+        "revisions": "2 bezpłatne poprawki przed wyjazdem",
+        "emailSupport": "Wsparcie mailowe przed, podczas i po wyjeździe"
+      },
+      "priceFor4": "Cena dla maksymalnie 4 osób",
+      "tiers": {
+        "short": "Krótki wyjazd",
+        "standard": "Standardowy wyjazd",
+        "long": "Długi wyjazd"
+      },
+      "longerTrips": "*Wyjazdy 14+ dni lub 5+ osób - wycena indywidualna",
+      "emailHours": "**Odpowiedzi na maile zazwyczaj w godz. 9:00-18:00 (pon-pt), 10:00-16:00 (sb)"
+    },
+    "tripSupport": {
+      "title": "Wsparcie w Podróży",
+      "subtitle": "Dla podróżujących, którzy chcą mieć wsparcie na miejscu",
+      "requirement": "⚠️ Wymaga wcześniejszego zakupu Planu Marzeń",
+      "tagline": "Twój osobisty asystent podczas całej podróży!",
+      "popularBadge": "POPULARNE",
+      "whatYouGet": "Co Otrzymujesz",
+      "features": {
+        "whatsapp": "Dostęp do eksperta przez WhatsApp/SMS podczas podróży (odpowiedź zazwyczaj do 2h)",
+        "changes": "Pomoc w nagłych zmianach planów/nieprzewidzianych sytuacjach",
+        "recommendations": "Rekomendacje restauracji i atrakcji \"na miejscu\"",
+        "basicPlan": "Kontynuacja wsparcia z Twojego Planu Marzeń"
+      },
+      "priceLabel": "Cena pakietu:",
+      "duration": "Wsparcie przez cały wyjazd (do 14 dni)",
+      "payOnce": "Płacisz raz, korzystasz bez limitu",
+      "noLimits": "Nie musisz martwić się o dodatkowe koszty - pytaj ile chcesz!"
+    },
+    "express": {
+      "title": "Usługa Ekspresowa",
+      "subtitle": "Dla osób, które potrzebują planu „na już”",
+      "subtitle2": "Wyjazd w ciągu 24-48h",
+      "urgentBadge": "PILNE",
+      "urgentMessage": "Potrzebujesz pomocy teraz? Jesteśmy tu—nawet po 18:00 czasu polskiego!",
+      "whatYouGet": "Co Otrzymujesz",
+      "features": {
+        "quickPlan": "Szybki plan dla wyjazdu 1-3 dniowego",
+        "recommendations": "Rekomendacje lotów i noclegów z aktualnymi cenami i linkami do rezerwacji",
+        "support": "Wsparcie WhatsApp przez pierwsze 24h podróży (odpowiedź zazwyczaj do 2h)"
+      },
+      "priceLabel": "Cena:"
+    },
+    "premiumPackage": {
+      "title": "Pakiet Premium",
+      "combination": "Plan Marzeń + Wsparcie w Podróży",
+      "subtitle": "Dla osób, które oczekują kompleksowej obsługi",
+      "bestValueBadge": "NAJLEPSZA OFERTA",
+      "whatYouGet": "Co Otrzymujesz",
+      "features": {
+        "dreamPlan": "Kompletny Plan Marzeń (5-10 dni)",
+        "companion": "Pełne wsparcie w podróży przez WhatsApp"
+      },
+      "standardPrice": "Standardowa cena",
+      "packagePrice": "Cena pakietu (5-10 dni)",
+      "savings": "Oszczędzasz 99 PLN!",
+      "benefit": "Masz spokój głowy przez całą podróż - pytaj o wszystko bez obaw o dodatkowe koszty!"
+    },
+    "disclaimer": {
+      "text": "Cena usługi nie obejmuje kosztu lotów, noclegów ani atrakcji. Moja praca to profesjonalne planowanie i logistyka Twojego czasu."
+    },
+    "cta": {
+      "title": "Gotowy na Planowanie?",
+      "subtitle": "Skontaktuj się już dziś i stwórzmy razem Twoje wymarzone doświadczenie podróżnicze.",
+      "whatsapp": "Napisz na WhatsApp",
+      "contact": "Kontakt"
+    }
+  }
+}
